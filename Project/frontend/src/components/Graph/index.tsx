@@ -41,8 +41,6 @@ export default function Graph() {
         });
 
         setGraphData(graph);
-
-        console.log(graph)
       })
       .catch((error) => {
         console.error('Error fetching graphData:', error);
